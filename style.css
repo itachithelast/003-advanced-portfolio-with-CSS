@@ -52,3 +52,13 @@ i{
 .padd{
     padding: 10px
 }
+.edu{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.edu h3{
+    padding-left: 0;
+}
+.edu ul{
+    padding-left: 20px;
+}
