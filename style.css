@@ -62,3 +62,12 @@ i{
 .edu ul{
     padding-left: 20px;
 }
+.card{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.text-grey{
+    color: grey;
+}
