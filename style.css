@@ -36,4 +36,9 @@ i{
 .title{
     font-family: "Comic Neue";
     font-size: 20px;
+    padding: 10px;
+}
+#projects li{
+    padding: 10px;
+    background-color: lightgrey;
 }
