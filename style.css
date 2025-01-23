@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 5px;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: inline-flex;
+}
+.nav-li{
+    list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+i{
+    padding: 20px;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    font-family: "Comic Neue";
+    font-size: 20px;
+}
