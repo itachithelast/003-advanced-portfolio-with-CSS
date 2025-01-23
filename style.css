@@ -19,8 +19,10 @@ nav ul{
 .nav-li{
     list-style-type: none;
 }
-.nav-link{
+a{
     text-decoration: none;
+}
+.nav-link{
     color: black;
     padding: 5px;
 }
@@ -40,5 +42,13 @@ i{
 }
 #projects li{
     padding: 10px;
+}
+.bg-grey{
     background-color: lightgrey;
+}
+.text-sm{
+    font-size: 0.88rem;
+}
+.padd{
+    padding: 10px
 }
