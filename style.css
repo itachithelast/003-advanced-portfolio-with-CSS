@@ -71,3 +71,33 @@ i{
 .text-grey{
     color: grey;
 }
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #name-logo{
+        display: flex;
+        align-items: center;
+    }
+    #main-title{
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    #main-subtitle{
+        padding-bottom: 40px;
+    }
+    #info{
+        display: grid;
+        grid-template-columns: 1.3fr 2fr 2fr;
+    }
+    #info section {
+        border: 1px solid black;
+    }
+    .bg-grey{
+        background-color: white;
+    }
+    .no-border{
+        border: none;
+    }
+}

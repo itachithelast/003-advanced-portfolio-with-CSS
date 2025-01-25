@@ -10,10 +10,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
+
   <body>
+
     <nav>
-        <i class="fa-solid fa-user fa-lg"></i>
-        <h4>Hamed.Devs.co</h4>
+        <div id="name-logo">
+          <i class="fa-solid fa-user fa-lg"></i>
+          <h4>Hamed.Devs.co</h4>
+        </div>
         <div>
           <ul>
             <li class="nav-li"><a class="nav-link" href="#">Home</a> /</li>
@@ -23,54 +27,60 @@
           </ul>
         </div>
     </nav>
+
     <header>
-      <h1 class="title text-center">Frontend Developer</h1>
-      <p class="text-center border-bottom">Html only with proper layout</p>
+      <h1 id="main-title" class="title text-center">Frontend Developer</h1>
+      <p id="main-subtitle" class="text-center border-bottom">Html only with proper layout</p>
     </header>
+
     <main>
-      <section id="projects">
-        <h3 class="title text-center border-bottom">Projects</h3>
-        <ul>
-          <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">HTML Only Portfolio</a></li>
-          <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Calculator</a></li>
-          <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Quiz App</a></li>
-          <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Clountdown Timer</a></li>
-          <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Product Upcoming Page</a></li>
-        </ul>
-      </section>
-      <section id="work-exp">
-          <h3 class="text-center title border-bottom">Work Experience</h3>
-          <div class="bg-grey border-bottom padd">
-            <p class="title text-sm">roadmap.sh</p>
-            <p class="text-sm">Solved all the frontend projects</p>
-            <a class="text-sm" href="#">Visit my profile</a>
-          </div>
-        <div class="bg-grey border-bottom padd">
-          <p class="title text-sm">OpenSource Work</p>
-          <p class="text-sm">
-            Contributed to 10 opensource projects. Made my own projects with 200
-            GitHub Stars
-          </p>
-          <a class="text-sm" href="#">Visit my Github Profile</a>
-        </div>
-      </section>
-      <section class="border-bottom edu ">
-        <h3 class="title text-center">Education</h3>
-        <p>Graduated with 18.8 out of 20 GPA.</p>
-        <p>Courses I took</p>
-        <ul>
-          <li>Object Oriented Programming</li>
-          <li>Data structures and algorithms</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Web designing</li>
-          <li>Respinsive web design</li>
-          <li>Python Basics</li>
-          <li>Python Django framework</li>
-          <li>JavaScript</li>
-          <li>React.Js</li>
-        </ul>
-      </section>
+
+ <section id="info">
+  <section id="projects">
+    <h3 class="title text-center border-bottom no-border">Projects</h3>
+    <ul>
+      <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">HTML Only Portfolio</a></li>
+      <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Calculator</a></li>
+      <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Quiz App</a></li>
+      <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Clountdown Timer</a></li>
+      <li class="bg-grey text-center nav-li border-bottom"><a class="nav-link" href="#">Product Upcoming Page</a></li>
+    </ul>
+  </section>
+  <section id="work-exp">
+      <h3 class="text-center title border-bottom no-border">Work Experience</h3>
+      <div class="bg-grey border-bottom padd">
+        <p class="title text-sm">roadmap.sh</p>
+        <p class="text-sm">Solved all the frontend projects</p>
+        <a class="text-sm no-border" href="#">Visit my profile</a>
+      </div>
+    <div class="bg-grey border-bottom padd no-border">
+      <p class="title text-sm">OpenSource Work</p>
+      <p class="text-sm">
+        Contributed to 10 opensource projects. Made my own projects with 200
+        GitHub Stars
+      </p>
+      <a  class="text-sm" href="#">Visit my Github Profile</a>
+    </div>
+  </section>
+  <section class="border-bottom edu ">
+    <h3 class="title text-center">Education</h3>
+    <p>Graduated with 18.8 out of 20 GPA.</p>
+    <p >Courses I took</p>
+    <ul>
+      <li>Object Oriented Programming</li>
+      <li>Data structures and algorithms</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Web designing</li>
+      <li>Respinsive web design</li>
+      <li>Python Basics</li>
+      <li>Python Django framework</li>
+      <li>JavaScript</li>
+      <li>React.Js</li>
+    </ul>
+  </section>
+ </section>
+
       <section id="cards-sect">
         <h3 class="title text-center">Reviews From My Teachers</h3>
 <div class="cards">
@@ -97,9 +107,12 @@
   </div>
 </div>
       </section>
+
     </main>
+
     <footer>
         <h3 class="title text-center">&#169 all rights reserved 2025</h3>
     </footer>
+
   </body>
 </html>
